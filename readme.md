@@ -70,3 +70,9 @@ font-weight:
 700: NanumMyeongjoBold
 800: NanumMyeongjoExtraBold
 ```
+
+
+
+
+## License   
+Webfont Nanum Subset fonts are licensed under the [MITE LICENSE](LICENSE).   
