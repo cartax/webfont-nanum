@@ -4,8 +4,8 @@
 
 ### HTML   
 ```
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/krescentmoon/webfont-nanum@1.0.2/dist/NanumBarunGothic/subsets/kr/font.css" />
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/krescentmoon/webfont-nanum@1.0.2/dist/NanumBarunGothic/subsets/kr-hanja/font.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumBarunGothic/subsets/kr/font.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumBarunGothic/subsets/kr-hanja/font.css" />
 ```
 
 ### CSS   
@@ -29,8 +29,8 @@ font-weight:
 ## NanumGothic   
 ### HTML   
 ```
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/krescentmoon/webfont-nanum@1.0.2/dist/NanumGothic/subsets/kr/font.css" />
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/krescentmoon/webfont-nanum@1.0.2/dist/NanumGothic/subsets/kr-hanja/font.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumGothic/subsets/kr/font.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumGothic/subsets/kr-hanja/font.css" />
 ```
 
 ### CSS   
@@ -54,8 +54,8 @@ font-weight:
 ## NanumMyeongjo   
 ### HTML   
 ```
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/krescentmoon/webfont-nanum@1.0.2/dist/NanumMyeongjo/subsets/kr/font.css" />
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/krescentmoon/webfont-nanum@1.0.2/dist/NanumMyeongjo/subsets/kr-hanja/font.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumMyeongjo/subsets/kr/font.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumMyeongjo/subsets/kr-hanja/font.css" />
 ```
 
 ### CSS   
@@ -75,4 +75,4 @@ font-weight:
 
 
 ## License   
-Webfont Nanum Subset fonts are licensed under the [MITE LICENSE](LICENSE).   
+Webfont Nanum Subset fonts are licensed under the [MIT LICENSE](LICENSE).   
