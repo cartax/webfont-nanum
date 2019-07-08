@@ -4,8 +4,8 @@
 
 ### HTML   
 ```
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumBarunGothic/subset/kr/font.css" />
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumBarunGothic/subset/kr-hanja/font.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.6/dist/NanumBarunGothic/subset/kr/font.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.6/dist/NanumBarunGothic/subset/kr-hanja/font.css" />
 ```
 
 ### CSS   
@@ -29,8 +29,8 @@ font-weight:
 ## NanumGothic   
 ### HTML   
 ```
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumGothic/subset/kr/font.css" />
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumGothic/subset/kr-hanja/font.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.6/dist/NanumGothic/subset/kr/font.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.6/dist/NanumGothic/subset/kr-hanja/font.css" />
 ```
 
 ### CSS   
@@ -54,8 +54,8 @@ font-weight:
 ## NanumMyeongjo   
 ### HTML   
 ```
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumMyeongjo/subset/kr/font.css" />
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumMyeongjo/subset/kr-hanja/font.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.6/dist/NanumMyeongjo/subset/kr/font.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.6/dist/NanumMyeongjo/subset/kr-hanja/font.css" />
 ```
 
 ### CSS   
@@ -72,6 +72,8 @@ font-weight:
 ```
 
 
+## Changelog   
+Please see [CHANGELOG](CHANGELOG) for more information what has changed recently.   
 
 
 ## License   
