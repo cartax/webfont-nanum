@@ -4,8 +4,8 @@
 
 ### HTML   
 ```
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumBarunGothic/subsets/kr/font.css" />
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumBarunGothic/subsets/kr-hanja/font.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumBarunGothic/subset/kr/font.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumBarunGothic/subset/kr-hanja/font.css" />
 ```
 
 ### CSS   
@@ -29,8 +29,8 @@ font-weight:
 ## NanumGothic   
 ### HTML   
 ```
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumGothic/subsets/kr/font.css" />
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumGothic/subsets/kr-hanja/font.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumGothic/subset/kr/font.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumGothic/subset/kr-hanja/font.css" />
 ```
 
 ### CSS   
@@ -54,8 +54,8 @@ font-weight:
 ## NanumMyeongjo   
 ### HTML   
 ```
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumMyeongjo/subsets/kr/font.css" />
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumMyeongjo/subsets/kr-hanja/font.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumMyeongjo/subset/kr/font.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.2/dist/NanumMyeongjo/subset/kr-hanja/font.css" />
 ```
 
 ### CSS   
