@@ -1,182 +1,334 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en-US" prefix="og: http://ogp.me/ns#" class="template-home">
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <title>Nanum</title>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.8/dist/NanumBarunGothic/subset/kr/font.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.8/dist/NanumGothic/subset/kr/font.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.8/dist/NanumMyeongjo/subset/kr/font.css" />
-    <style>
-    html { margin: 0; }
-    body { margin: 10px; }
-    h1 { margin: 0; font-size: 90px; text-align: center; }
-    h2 { margin: 0 0 10px; }
-    h3 { margin: 0px 0 10px; }
-    h4 {margin: 0 0 10px;}
-    p { margin: 0 0 5px; }
-    pre {margin: 0 0 10px;padding: 10px;white-space: pre-line;background: #f6f6f6;}
-    section { margin-bottom: 100px; }
-    footer { font-size: 12px; text-align: center; }
-    .section {margin: 0 0 30px;}
-    .ff-NanumBarunGothic { font-family: 'NanumBarunGothic', sans-serif; }
-    .ff-NanumGothic { font-family: 'NanumGothic', sans-serif; }
-    .ff-NanumMyeongjo { font-family: 'NanumMyeongjo', serif; }
-    .fw-100 { font-weight: 100; }
-    .fw-200 { font-weight: 200; }
-    .fw-300 { font-weight: 300; }
-    .fw-400 { font-weight: 400; }
-    .fw-500 { font-weight: 500; }
-    .fw-600 { font-weight: 600; }
-    .fw-700 { font-weight: 700; }
-    .fw-800 { font-weight: 800; }
-    .fw-900 { font-weight: 900; }
-    .fs-10 { font-size: 10px; }
-    .fs-12 { font-size: 12px; }
-    .fs-14 { font-size: 14px; }
-    .fs-16 { font-size: 16px; }
-    .fs-18 { font-size: 18px; }
-    .fs-20 { font-size: 20px; }
-    .fs-24 { font-size: 24px; }
-    .fs-28 { font-size: 28px; }
-    .fs-32 { font-size: 32px; }
-    .fs-36 { font-size: 36px; }
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- Do not change the meta tag above. -->
+    <!-- X-UA-Compatible does not work in Explorer if http-equiv is not directly below it. -->
+
+    <!-- The robots meta tag -->
+    <meta name="robots" content="index,follow" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://cartax.github.io/webfont-nanum" />
+
+    <!-- Search Engine Optimization -->
+    <title>Webfont | Nanum</title>
+    <meta name="description" content="Subset Webfont Nanum" />
+    <meta name="keywords" content="webfont, nanum, NanumBarunGothic, NanumBarunpen, NanumBrush, NanumGothic, NanumGothicEco, NanumMyeongjo, NanumMyeongjoEco, NanumPen, NanumSquare, NanumSquareRound, 경량화 웹폰트, 나눔폰트, 나눔바른고딕, 나눔바른펜, 나눔브러쉬, 나눔고딕, 나눔고딕에코, 나눔명조, 나눔명조에코, 나눔펜, 나눔스퀘어, 나눔스퀘어에코" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/ico/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/ico/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/ico/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/ico/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/ico/android-icon-192x192.png" />
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-icon-180x180.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="assets/ico/ms-icon-144x144.png" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/font.css" />
+    <link rel="stylesheet" href="assets/vendor/highlightjs/v9.15.6/styles/foundation.css" />
+    <link rel="stylesheet" href="assets/css/grid-system.min.css" />
+    <link rel="stylesheet" href="assets/css/grid-component.css" />
+    <link rel="stylesheet" href="assets/css/grid-typography.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!--[if lt IE 9]>
+    <script src="assets/vendor/html5shiv/v3.7.3/html5shiv.min.js"></script>
+    <script src="assets/vendor/respond/v1.4.2/respond.min.js"></script>
+    <script src="assets/vendor/selectivizr/v1.0.3b/selectivizr.js"></script>
+    <![endif]-->
 </head>
-<body>
-    <header>
-        <h1>Nanum Subset</h1>
-    </header>
-    <main>
+<body itemscope itemtype="http://schema.org/WebPage" class="navbar-fixed">
+<!--[if lt IE 9]>
+<div class="browser-message">
+    <noscript>
+        <p class="browser-warning noscript-warning" role="alert" style="padding:10px;">
+            <strong>This web page requires JavaScript to be enabled.</strong><br/>
+            JavaScript is an object-oriented computer programming language
+            commonly used to create interactive effects within web browsers.
+        </p>
+    </noscript>
+    <p class="browser-warning upgrade-warning" role="alert" style="padding:10px;">
+        You are using an <strong>outdated</strong> browser. Please <a class="alert-link" href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.
+    </p>
+</div>
+<![endif]-->
+<div id="page" class="site">
+        
+    <a id="skip-masthead" class="screen-reader-text" href="#main">Skip to content</a>
 
-        <section class="demo">
-            <h2>Demo</h2>
-            <div class="section ff-NanumBarunGothic">
-                <h3>NanumBarunGothic</h3>
+    <header id="masthead" class="site-header navbar" itemscope itemtype="http://schema.org/WPHeader">
+        <div class="container">
 
-                <h4>font-weight: </h4>
-                <p class="fw-200">200: ０１２３４５６７８９ⅰⅱⅲⅳⅴⅵⅶⅷⅸⅹⅠⅡⅢⅣⅤⅥⅦⅧⅨX</p>
-                <p class="fw-300">300: ①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮㉠㉡㉢㉣㉤㉥㉦㉧㉨㉩㉪㉫㉬㉭㉮㉯㉰㉱㉲㉳㉴㉵㉶㉷㉸㉹㉺㉻</p>
-                <p class="fw-400">400: ！＇，．／：；？＾＿｀｜￣、。·‥…¨〃­―∥＼∼´～ˇ˘˝˚˙¸˛¡¿ː‽⁂©＂（）［］｛｝‘’“”〔〕〈〉《》「」『』【】＋－</p>
-                <p class="fw-700">700: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                
-                <h4>font-size: </h4>
-                <p class="fs-10">10px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-12">12px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-14">14px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-16">16px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-18">18px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-20">20px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-24">24px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-28">28px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-32">32px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-36">36px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-            </div>
-            <div class="section ff-NanumGothic">
-                <h3>NanumGothic</h3>
-
-                <h4>font-weight: </h4>
-                <p class="fw-300">300: ０１２３４５６７８９ⅰⅱⅲⅳⅴⅵⅶⅷⅸⅹⅠⅡⅢⅣⅤⅥⅦⅧⅨX</p>
-                <p class="fw-400">400: ①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮㉠㉡㉢㉣㉤㉥㉦㉧㉨㉩㉪㉫㉬㉭㉮㉯㉰㉱㉲㉳㉴㉵㉶㉷㉸㉹㉺㉻</p>
-                <p class="fw-700">700: ！＇，．／：；？＾＿｀｜￣、。·‥…¨〃­―∥＼∼´～ˇ˘˝˚˙¸˛¡¿ː‽⁂©＂（）［］｛｝‘’“”〔〕〈〉《》「」『』【】＋－</p>
-                <p class="fw-800">800: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-
-                <h4>font-size: </h4>
-                <p class="fs-10">10px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-12">12px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-14">14px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-16">16px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-18">18px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-20">20px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-24">24px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-28">28px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-32">32px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-36">36px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-            </div>
-            <div class="section ff-NanumMyeongjo">
-                <h3>NanumMyeongjo</h3>
-
-                <h4>font-weight: </h4>
-                <p class="fw-400">400: ０１２３４５６７８９ⅰⅱⅲⅳⅴⅵⅶⅷⅸⅹⅠⅡⅢⅣⅤⅥⅦⅧⅨX</p>
-                <p class="fw-700">700: ！＇，．／：；？＾＿｀｜￣、。·‥…¨〃­―∥＼∼´～ˇ˘˝˚˙¸˛¡¿ː‽⁂©＂（）［］｛｝‘’“”〔〕〈〉《》「」『』【】＋－</p>
-                <p class="fw-800">800: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-
-                <h4>font-size: </h4>
-                <p class="fs-10">10px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-12">12px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-14">14px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-16">16px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-18">18px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-20">20px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-24">24px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-28">28px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-32">32px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-                <p class="fs-36">36px: 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-            </div>
-        </section>
-
-
-        <section class="usage">
-            <h2>Usage</h2>
-
-            <div class="section ff-NanumBarunGothic">
-                <h3>NanumBarunGothic</h3>
-<h4>HTML: </h4>
-<pre><code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.6/dist/NanumBarunGothic/subset/kr/font.css&quot; /&gt;
-&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.6/dist/NanumBarunGothic/subset/kr-hanja/font.css&quot; /&gt;
-</code></pre>
-
-<h4>font-family: </h4>
-<pre><code>body { font-family:'NanumBarunGothic', sans-serif; }</code></pre>
-
-<h4>font-weight: </h4>
-<pre><code>200: NanumBarunGothicUltraLight
-300: NanumBarunGothicLight
-400: NanumBarunGothic
-700: NanumBarunGothicBold
-</code></pre>
+            <div id="page-brand" class="site-brand">
+                <h1 class="site-title" itemprop="name">
+                    <a class="site-logo" href="index.html" itemprop="url">
+                        <img src="assets/img/cartax-logo-b.svg" alt="cartax logo">
+                    </a> 
+                </h1>
             </div>
 
-            <div class="section ff-NanumGothic">
-                <h3>NanumGothic</h3>
-<h4>HTML: </h4>
-<pre><code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.6/dist/NanumGothic/subset/kr/font.css&quot; /&gt;
-&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.6/dist/NanumGothic/subset/kr-hanja/font.css&quot; /&gt;
+            <nav id="page-navigation" class="site-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                <h2 class="screen-reader-text">Site Navigation</h2>
+                <div id="navbg" class="nav-bg"></div>
+                <div id="navbtn" class="nav-btn burger">
+                    <span class="bar bar-1"></span>
+                    <span class="bar bar-2"></span>
+                    <span class="bar bar-3"></span>
+                </div>
+                <ul class="site-menu dropdown-menu mobile-dropdown-menu">
+                    <li><a itemprop="url" href="index.html"><span itemprop="name">Overview</span></a></li>
+                    <li><a itemprop="url" href="#usage"><span itemprop="name">Usage</span></a></li>
+                    <li><a itemprop="url" href="#demos"><span itemprop="name">Demo</span></a></li>
+                    <li><a itemprop="url" href="https://github.com/cartax/webfont-nanum" target="_blank"><span itemprop="name">Github</span></a></li>
+                </ul>
+            </nav>
+
+        </div><!-- .container -->
+    </header><!-- #masthead -->
+
+    <div id="content" class="site-content">
+        
+        <main id="main-content" class="main-area">
+            <div class="container">
+                <div class="columns mobile-orders">
+
+                    <section id="primary" class="content-area column-12 mobile-column-12 mobile-order-1">
+                        <div id="main" class="site-main">
+                            <div class="main-inner">
+
+                                <header class="page-header">
+                                    <div class="wrap">
+                                        <h2 class="page-title font-90">Nanum</h2>
+                                    </div>
+                                </header>
+
+                                <div class="page-content">
+                                    
+                                    <section id="overview" class="section">
+                                        <div class="section-inner">
+                                                
+                                            <header class="section-header">
+                                                <div class="wrap">
+                                                    <h3 class="section-title font-50">Overview</h3>
+                                                </div>
+                                            </header>
+                                            <div class="section-content">
+                                                <div class="wrap">
+
+
+
+<div class="responsive-table">
+    <table class="table">
+        <thead>
+            <tr><th>font-family</th><th>100</th><th>200</th><th>300</th><th>400</th><th>500</th><th>600</th><th>700</th><th>800</th><th>900</th></tr>
+        </thead>
+        <tbody>
+            <tr><th>NanumBarunGothic</th><td>-</td><td>UltraLight</td><td>Light</td><td>Regular</td><td>-</td><td>-</td><td>Bold</td><td>-</td><td>-</td></tr>
+            <tr><th>NanumBarunpen</th><td>-</td><td>-</td><td>-</td><td>Regular</td><td>-</td><td>-</td><td>Bold</td><td>-</td><td>-</td>
+            </tr><tr><th>NanumBrush</th><td>-</td><td>-</td><td>-</td><td>Regular</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr><tr><th>NanumGothic</th><td>-</td><td>-</td><td>Light</td><td>Regular</td><td>-</td><td>-</td><td>Bold</td><td>ExtraBold</td><td>-</td>
+            </tr><tr><th>NanumGothicEco</th><td>-</td><td>-</td><td>-</td><td>Regular</td><td>-</td><td>-</td><td>Bold</td><td>ExtraBold</td><td>-</td>
+            </tr><tr><th>NanumMyeongjo</th><td>-</td><td>-</td><td>-</td><td>Regular</td><td>-</td><td>-</td><td>Bold</td><td>ExtraBold</td><td>-</td>
+            </tr><tr><th>NanumMyeongjoEco</th><td>-</td><td>-</td><td>-</td><td>Regular</td><td>-</td><td>-</td><td>Bold</td><td>ExtraBold</td><td>-</td></tr>
+            <tr><th>NanumPen</th><td>-</td><td>-</td><td>-</td><td>Regular</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr><tr><th>NanumSquare</th><td>-</td><td>-</td><td>Light</td><td>Regular</td><td>-</td><td>-</td><td>Bold</td><td>ExtraBold</td><td>-</td>
+            </tr><tr><th>NanumSquareRound</th><td>-</td><td>-</td><td>Light</td><td>Regular</td><td>-</td><td>-</td><td>Bold</td><td>ExtraBold</td><td>-</td></tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+                                                </div>
+                                            </div>
+
+                                        </div><!-- .section-inner -->
+                                    </section>
+                                    
+                                    <section id="usage" class="section">
+                                        <div class="section-inner">
+                                                
+                                            <header class="section-header">
+                                                <div class="wrap">
+                                                    <h3 class="section-title font-50">Usage</h3>
+                                                </div>
+                                            </header>
+                                            <div class="section-content">
+                                                <div class="wrap">
+
+
+<br>
+
+<h4>HTML</h4>
+<pre class="highlight"><code class="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;file/path/font.css&quot; /&gt;
 </code></pre>
 
-<h4>font-family: </h4>
-<pre><code>body { font-family:'NanumGothic', sans-serif; }</code></pre>
+<br>
 
-<h4>font-weight: </h4>
-<pre><code>300: NanumGothicLight
-400: NanumGothic
-700: NanumGothicBold
-800: NanumGothicExtraBold
+<h4>CDN</h4>
+<pre class="highlight"><code class="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/cartax/webfont-nanum/dist/{font-family}/subset/{kr, kr-hanja}/font.css&quot; /&gt;
 </code></pre>
+
+<br>
+
+<h4>CSS</h4>
+<p>sans-serif</p>
+<pre class="highlight"><code class="css">body { 
+    font-family: 'Nanum{BarunGothic, Barunpen, Gothic, GothicEco}', sans-serif; 
+    font-weight: {200, 300, 400, 700, 800};
+}
+</code></pre>
+
+<p>serif</p>
+<pre class="highlight"><code class="css">body { 
+    font-family: 'Nanum{Brush, Myeongjo, MyeongjoEco, Pen, Square, SquareRound}', serif; 
+    font-weight: {300, 400, 700, 800};
+}
+</code></pre>
+
+
+
+                                                </div>
+                                            </div>
+
+                                        </div><!-- .section-inner -->
+                                    </section>
+
+                                    <section id="demos" class="section">
+                                        <div class="section-inner">
+                                                
+                                            <header class="section-header">
+                                                <div class="wrap">
+                                                    <h3 class="section-title font-50">Demo</h3>
+                                                </div>
+                                            </header>
+                                            <div class="section-content">
+                                                <div class="wrap">
+
+
+<ul class="columns gutter-10 column-count-4 mobile-column-count-2 demo-list text-center">
+    <li class="column demo-item">
+        <a class="display-block" href="NanumBarunGothic.html">
+            <div class="brand-image brand-cartax">
+                <i class="brand-logo"></i>
             </div>
-
-            <div class="section ff-NanumMyeongjo">
-                <h3>NanumMyeongjo</h3>
-<h4>HTML: </h4>
-<pre><code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.6/dist/NanumMyeongjo/subset/kr/font.css&quot; /&gt;
-&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/gh/cartax/webfont-nanum@1.0.6/dist/NanumMyeongjo/subset/kr-hanja/font.css&quot; /&gt;
-</code></pre>
-
-<h4>font-family: </h4>
-<pre><code>body { font-family:'NanumMyeongjo', serif; }</code></pre>
-
-<h4>font-weight: </h4>
-<pre><code>400: NanumMyeongjo
-700: NanumMyeongjoBold
-800: NanumMyeongjoExtraBold
-</code></pre>
+            <span>NanumBarunGothic</span>
+        </a>
+    </li>
+    <li class="column demo-item">
+        <a class="display-block" href="NanumBarunpen.html">
+            <div class="brand-image brand-cartax">
+                <i class="brand-logo"></i>
             </div>
-        </section>
+            <span>NanumBarunpen</span>
+        </a>
+    </li>
+    <li class="column demo-item">
+        <a class="display-block" href="NanumBrush.html">
+            <div class="brand-image brand-cartax">
+                <i class="brand-logo"></i>
+            </div>
+            <span>NanumBrush</span>
+        </a>
+    </li>
+    <li class="column demo-item">
+        <a class="display-block" href="NanumGothic.html">
+            <div class="brand-image brand-cartax">
+                <i class="brand-logo"></i>
+            </div>
+            <span>NanumGothic</span>
+        </a>
+    </li>
+    <li class="column demo-item">
+        <a class="display-block" href="NanumGothicEco.html">
+            <div class="brand-image brand-cartax">
+                <i class="brand-logo"></i>
+            </div>
+            <span>NanumGothicEco</span>
+        </a>
+    </li>
+    <li class="column demo-item">
+        <a class="display-block" href="NanumMyeongjo.html">
+            <div class="brand-image brand-cartax">
+                <i class="brand-logo"></i>
+            </div>
+            <span>NanumMyeongjo</span>
+        </a>
+    </li>
+    <li class="column demo-item">
+        <a class="display-block" href="NanumMyeongjoEco.html">
+            <div class="brand-image brand-cartax">
+                <i class="brand-logo"></i>
+            </div>
+            <span>NanumMyeongjoEco</span>
+        </a>
+    </li>
+    <li class="column demo-item">
+        <a class="display-block" href="NanumPen.html">
+            <div class="brand-image brand-cartax">
+                <i class="brand-logo"></i>
+            </div>
+            <span>NanumPen</span>
+        </a>
+    </li>
+    <li class="column demo-item">
+        <a class="display-block" href="NanumSquare.html">
+            <div class="brand-image brand-cartax">
+                <i class="brand-logo"></i>
+            </div>
+            <span>NanumSquare</span>
+        </a>
+    </li>
+    <li class="column demo-item">
+        <a class="display-block" href="NanumSquareRound.html">
+            <div class="brand-image brand-cartax">
+                <i class="brand-logo"></i>
+            </div>
+            <span>NanumSquareRound</span>
+        </a>
+    </li>
+</ul><!-- .columns -->
 
-    </main>
-    <footer>
-        Webfont Nanum is licensed under the MIT License. | Copyright ⓒ 2019 by cartax <br>
-        MIT License | <a href="https://github.com/cartax/webfont-nanum">View on Github</a>
+
+                                                </div><!-- .wrap -->
+                                            </div><!-- .section-content -->
+
+                                        </div><!-- .section-inner -->
+                                    </section>
+
+                                </div><!-- .page-content -->
+                                
+                            </div><!-- .main-inner -->
+                        </div><!-- #main -->
+                    </section><!-- #primary -->
+
+                </div><!-- .columns -->
+            </div><!-- .wrap -->
+        </main><!-- .main-content -->
+
+    </div><!-- #content -->
+
+    <footer id="colophon" class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+        <a id="scroll-to-top" class="outer ir-phark" href="#page">Scroll to Top</a>
+        <div class="container">
+            <p class="site-licsnse">webfont-nanum is licensed under the <a href="LICENSE">MIT License</a>.</p>
+            <p class="site-copyright">Copyright ⓒ CARTAX, Inc. All Rights Reserved.</p>
+        </div>
     </footer>
+
+    <!-- script -->
+    <script src="assets/vendor/jquery/v3.3.1/jquery-3.3.1.min.js"></script>
+    <script src="assets/vendor/jquery/v3.3.1/jquery-migrate.min.js"></script>
+    <script src="assets/vendor/highlightjs/v9.15.6/highlight.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+</div><!-- #page -->
 </body>
 </html>

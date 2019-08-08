@@ -1,0 +1,25 @@
+/**
+ * Responsive
+ * 
+ * Breakpoint
+ * 1920px: hdmi
+ * 1280px: desktop
+ * 1024px: tablet
+ * 767px : mobile
+ */
+@media (max-width:1920px) { }
+@media (max-width:1280px) { }
+@media (max-width:1024px) { }
+@media (max-width:767px) {
+
+    /**
+     * Common
+     */
+    .wrap { padding-left: 0; padding-right: 0; }
+
+    /* site */
+    .site-header { height: 54px; }
+    .site-content { padding-bottom: 50px; }
+    .content-area { border: 0; }
+    .section:nth-last-of-type(1) { padding-bottom: 0; }
+}

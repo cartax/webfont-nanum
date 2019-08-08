@@ -1,0 +1,36 @@
+@font-face{
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: local('☺'),
+         url('../font/NanumBarunGothic/subset/kr/NanumBarunGothic.woff2') format('woff2'),
+         url('../font/NanumBarunGothic/subset/kr/NanumBarunGothic.woff') format('woff'),
+         url('../font/NanumBarunGothic/subset/kr/NanumBarunGothic.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 200;
+    src: local('☺'),
+         url('../font/NanumBarunGothic/subset/kr/NanumBarunGothicUltraLight.woff2') format('woff2'),
+         url('../font/NanumBarunGothic/subset/kr/NanumBarunGothicUltraLight.woff') format('woff'),
+         url('../font/NanumBarunGothic/subset/kr/NanumBarunGothicUltraLight.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 300;
+    src: local('☺'),
+         url('../font/NanumBarunGothic/subset/kr/NanumBarunGothicLight.woff2') format('woff2'),
+         url('../font/NanumBarunGothic/subset/kr/NanumBarunGothicLight.woff') format('woff'),
+         url('../font/NanumBarunGothic/subset/kr/NanumBarunGothicLight.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 700;
+    src: local('☺'),
+         url('../font/NanumBarunGothic/subset/kr/NanumBarunGothicBold.woff2') format('woff2'),
+         url('../font/NanumBarunGothic/subset/kr/NanumBarunGothicBold.woff') format('woff'),
+         url('../font/NanumBarunGothic/subset/kr/NanumBarunGothicBold.ttf') format('truetype');
+}
